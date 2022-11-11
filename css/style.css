@@ -4,3 +4,27 @@
 #book-with-us{
     text-align: justify;
 }
+body{
+    background-color:lightskyblue;
+}
+.login-form{
+    margin-top: 100px;
+}
+form.login-form.row{
+    padding-bottom: 200px;
+}
+div.row.signup-form{
+    margin-top: 100px;
+}
+/* District Start */
+div.districtofkerala.row.container-fluid {
+    margin: 80px 0px 0px 0px;
+    text-decoration: none;
+}
+
+div.card.container.districts {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* District End */
