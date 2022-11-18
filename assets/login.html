@@ -52,30 +52,37 @@
     </nav>
 </header>
   <!-- header end -->
-    <!-- Login Start -->
-    <form class="login-form row" >
-        <div class="col-4">
-        </div>
-        <div class="col-4">
+     <!-- User Login start -->
+    <div class="row userlogin container-fluid m-0 p-0">
+        <div class="col-md-4"></div>
+        <form class="col-md-4 userformtologin">
+            <div class="container logo-of-kerala-for-login" style="width: 8rem;">
+                <img src="../images/kerala-logo.png" class="card-img-top" alt="kerala green logo image">
+            </div>
+            <br>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">User Name</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="User Name" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Email">
+                <small id="email_err"></small>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputphonenum" aria-describedby="phoneHelp"
+                    placeholder="Phone Number">
+                <small id="phone_err"></small>
+            </div>
+            <div class="mb-3">
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Remind Me</label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-        <div class="col-4">
-        </div>
-     
-      </form>
-      <!-- Login End -->
+                <small id="pass_err"></small>
+                <br>
+                <small id="strength"></small>
+            </div>
+            <button type="submit" class="btn btn-primary userloginbuttonfortourist w-100">Log In</button>
+        </form>
+        <div class="col-md-4"></div>
+    </div>
+    <!-- User login end -->
+
+
     <!-- Footer Start -->
     <div class="card footer login-footer">
         <div class="card-body text-bg-dark footer-body footer-login">
@@ -84,5 +91,6 @@
       </div>
       <!-- Footer End -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="../js/login.js"></script>
 </body>
 </html>
